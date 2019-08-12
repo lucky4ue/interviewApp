@@ -87,7 +87,7 @@
     </div>
     <div class="table-body">
       <ng-container *ngFor="let item of data">
-        <div class="row mb-1">
+        <div class="row mb-1" [ngClass]="item.isNew ? 'new' : 'old'">
           <div class="col">{{item.fpo}}</div>
           <div class="col">{{item.createdOn}}</div>
           <div class="col">{{item.currency}}{{item.amount}}</div>
