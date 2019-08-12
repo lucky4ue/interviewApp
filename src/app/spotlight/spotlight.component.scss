@@ -1,0 +1,47 @@
+header {
+    background-color: #064631;
+    background-image: url(../../assets/images/blue-print-design.png);
+    background-position: center;
+    background-origin: padding-box;
+    height: 106px;
+  .brand {
+    font-size: 36px;
+    color: #f8f8f8;
+    font-weight: 700;
+  }
+  .valid-user {
+    width: 339px;
+    height: 39px;
+    border-radius: 4px;
+    background-color: #f89133;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .user-name {
+      letter-spacing: 0px;
+      line-height: 45px;
+      color: #ffffff;
+      font-weight: 500;
+    }
+  }
+  .mobile-menu {
+    cursor: pointer;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 42px;
+    padding: 8px;
+    div {
+      width: 30px;
+      height: 2px;
+      background: white;
+    }
+    &:hover {
+      background: white;
+      border-radius: 3px;
+      div {
+        background: #f89133;
+      }
+    }
+  }
+}

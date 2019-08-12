@@ -1,0 +1,107 @@
+  <section>
+    <div class="row">
+      <div class="search col-5">
+          <span>Search by</span>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <div class="input-group-text">All</div>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+              </div>
+            </div>
+            <input type="text" class="form-control" aria-label="Text input with dropdown button">
+            <div class="input-group-append">
+              <img class="" src="../assets/icons/search.svg">
+            </div>
+          </div>
+      </div>
+      <div class="col-4 offset-3 d-flex justify-content-around align-items-center">
+        <div class="key d-flex">
+          <div class="new"><img src="../../assets/icons/new.svg"> <span class="px-1">=</span> <span>New</span></div>
+          <div class="old ml-3"><img src="../../assets/icons/old.svg"> <span class="px-1">=</span> <span>Old</span></div>
+        </div>
+        <div class="export"><img src="../../assets/icons/export.svg"><span class="pl-1">Export</span></div>
+      </div>
+    </div>
+    <div class="row table-head">
+      <div class="col">
+        <div class="media">
+          <span class="title">FPO#</span>
+          <div class="media-body">
+           <div>&#9652;</div>
+           <div>&#9662;</div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="media">
+          <span class="title">CREATED</span>
+          <div class="media-body">
+           <div>&#9652;</div>
+           <div>&#9662;</div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="media">
+          <span class="title">AMOUNT</span>
+          <div class="media-body">
+           <div>&#9652;</div>
+           <div>&#9662;</div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="media">
+          <span class="title">DIVISION</span>
+          <div class="media-body">
+           <div>&#9652;</div>
+           <div>&#9662;</div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="media">
+          <span class="title">ADDRESS</span>
+          <div class="media-body">
+           <div>&#9652;</div>
+           <div>&#9662;</div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="media">
+          <span class="title">BUILDER</span>
+          <div class="media-body">
+           <div>&#9652;</div>
+           <div>&#9662;</div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="media">
+          <span class="title">REASON</span>
+        </div>
+      </div>
+    </div>
+    <div class="table-body">
+      <ng-container *ngFor="let item of data">
+        <div class="row mb-1">
+          <div class="col">{{item.fpo}}</div>
+          <div class="col">{{item.createdOn}}</div>
+          <div class="col">{{item.currency}}{{item.amount}}</div>
+          <div class="col">{{item.division}}</div>
+          <div class="col">
+            <p class="mb-0">ABCD-1234-00</p>
+            <p class="mb-0 truncate">{{ "2138 Blankenbecker Drive Cincinnati, Ohio 45202" | truncate : 21 }}</p>
+          </div>
+          <div class="col">
+            <p class="mb-0">{{item.builderName}}</p>
+            <p class="mb-0">({{item.contactNo.cityCode}}){{item.contactNo.landLineNo}}</p>
+          </div>
+          <div class="col"><img src="../../assets/icons/reason.svg"></div>
+        </div>
+      </ng-container>
+    </div>
+  </section>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2 21" width="2" height="21">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M-1184 -39L96 -39L96 761L-1184 761Z" />
+		</clipPath>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: none;stroke: #ffffff } 
+	</style>
+	<g id="Backcharge w/Popups" clip-path="url(#cp1)">
+		<g id="HEADER">
+			<g id="Login/Profile">
+				<path id="Shape 1" class="shp0" d="M0 0L1 0L1 21L0 21L0 0Z" />
+			</g>
+		</g>
+	</g>
+</svg>

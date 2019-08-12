@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 8" width="14" height="8">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M-165 -275L1115 -275L1115 525L-165 525Z" />
+		</clipPath>
+		<image width="45" height="80" id="img1" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NSA4MCIgd2lkdGg9IjQ1IiBoZWlnaHQ9IjgwIj4KCTxkZWZzPgoJCTxjbGlwUGF0aCBjbGlwUGF0aFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgaWQ9ImNwMSI+CgkJCTxwYXRoIGQ9Ik0wIDBMNDUgMEw0NSA4MEwwIDgwWiIgLz4KCQk8L2NsaXBQYXRoPgoJPC9kZWZzPgoJPHN0eWxlPgoJCXRzcGFuIHsgd2hpdGUtc3BhY2U6cHJlIH0KCQkuc2hwMCB7IGZpbGw6ICM5OTk5OTkgfSAKCTwvc3R5bGU+Cgk8ZyBpZD0iUGFnZSAxIiBjbGlwLXBhdGg9InVybCgjY3AxKSI+CgkJPHBhdGggaWQ9IlBhdGggMSIgY2xhc3M9InNocDAiIGQ9Ik01LjEyIDBMMCA1LjEzTDM0Ljg3IDQwTDAgNzQuODdMNS4xMiA4MEw0MCA0NS4xM0w0NS4xMyA0MEw0MCAzNC44N0w1LjEyIDBaIiAvPgoJPC9nPgo8L3N2Zz4="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Backcharge w/Popups" clip-path="url(#cp1)">
+		<use id="icn - arrow" href="#img1" transform="matrix(0,0.177,-0.175,0,14,0)"/>
+	</g>
+</svg>

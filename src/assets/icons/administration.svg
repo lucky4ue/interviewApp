@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 20" width="16" height="20">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M-20 -136L1260 -136L1260 664L-20 664Z" />
+		</clipPath>
+		<image width="54" height="65" id="img1" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NCA2NSIgd2lkdGg9IjU0IiBoZWlnaHQ9IjY1Ij4KCTxkZWZzPgoJCTxjbGlwUGF0aCBjbGlwUGF0aFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgaWQ9ImNwMSI+CgkJCTxwYXRoIGQ9Ik0wIDBMNTQgMEw1NCA2NUwwIDY1WiIgLz4KCQk8L2NsaXBQYXRoPgoJPC9kZWZzPgoJPHN0eWxlPgoJCXRzcGFuIHsgd2hpdGUtc3BhY2U6cHJlIH0KCQkuc2hwMCB7IGZpbGw6ICMwMDAwMDAgfSAKCTwvc3R5bGU+Cgk8ZyBpZD0iUGFnZSAxIiBjbGlwLXBhdGg9InVybCgjY3AxKSI+CgkJPHBhdGggaWQ9IlBhdGggMSIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGFzcz0ic2hwMCIgZD0iTTU0LjEgMTNMNTQuMSA0M0M1NC4xIDQzLjUgNTQgNDQuMSA1My44IDQ0LjZDNDkuNiA1NC4xIDQxLjUgNjEuMSAzMS41IDYzLjhDMjYuMjMgNjUuNDUgMjcuODEgNjUuMzIgMjIuNiA2My45QzEyLjYgNjEuMSA0LjUgNTQuMSAwLjMgNDQuN0MwLjEgNDQuMiAwIDQzLjcgMCA0My4xTDAgMTNDMCAxMC44IDEuNyA5LjEgMy45IDlDMTEuMyA4LjggMTguNiA1LjkgMjQuMyAwLjhDMjUuODUgLTAuNTYgMjguMTkgLTAuNTIgMjkuNyAwLjhDMzUuMyA1LjggNDIuNiA4LjcgNTAuMiA5QzUyLjQgOS4xIDU0LjEgMTAuOCA1NC4xIDEzWk01MC4xIDEzQzQxLjYgMTIuNyAzMy41IDkuNSAyNy4xIDMuOEMyMC43IDkuNSAxMi42IDEyLjggNC4xIDEzTDQuMSA0My4xQzcuOCA1MS40IDE1IDU3LjYgMjMuOCA2MC4xTDI3LjEgNjFMMzAuNCA2MEMzOS4yIDU3LjYgNDYuNCA1MS40IDUwLjEgNDNMNTAuMSAxM1pNMzAuOCAyOEwzOS4xIDI5LjJMMzMuMSAzNS4xTDM0LjUgNDMuNEwyNy4xIDM5LjRMMTkuNyA0My4zTDIxLjEgMzVMMTUuMSAyOS4xTDIzLjQgMjcuOUwyNy4xIDIwLjRMMzAuOCAyOFoiIC8+Cgk8L2c+Cjwvc3ZnPg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Backcharge w/Popups" clip-path="url(#cp1)">
+		<g id="LEFT NAV">
+			<g id="Icons">
+				<use id="Vector Smart Object" href="#img1" transform="matrix(0.296,0,0,0.307,0,0)"/>
+			</g>
+		</g>
+	</g>
+</svg>
