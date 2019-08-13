@@ -6,19 +6,22 @@ import { SpotlightComponent } from './spotlight/spotlight.component';
 import { SideNavComponent } from './side-nav/side-nav.component';
 import { BackchargesComponent } from './backcharges/backcharges.component';
 import { ResponsiveService } from './responsive.service';
-import { PopHoverComponent } from './pop-hover/pop-hover.component';
-
+// import { PopHoverComponent } from './pop-hover/pop-hover.component';
+import { PopHoverModule } from './pop-hover/pop-hover.module';
+import {ScrollDispatchModule} from '@angular/cdk/scrolling';
 @NgModule({
   declarations: [
     AppComponent,
     SpotlightComponent,
     SideNavComponent,
-    BackchargesComponent,
-    PopHoverComponent
+    BackchargesComponent
+    // PopHoverComponent
   ],
   imports: [
     BrowserModule,
-    TruncateModule
+    TruncateModule,
+    PopHoverModule,
+    ScrollDispatchModule
   ],
   providers: [
     ResponsiveService

@@ -1,14 +1,5 @@
   <section>
     <div class="row">
-      <!--<div class="hover-info">
-        <div class="hover-close">&times;</div>
-        <div class="hover-header">
-          <p class="mb-0 font-weight-bold">Address Details</p>
-        </div>
-        <div class="mb-0 hover-body">
-          <p>2138 Blankenbecker drive Cincinnati, Ohio 45202</p>
-        </div>
-      </div>-->
       <div class="search col-5">
           <span>Search by</span>
           <div class="input-group">
@@ -103,7 +94,10 @@
           <div class="col">{{item.division}}</div>
           <div class="col">
             <p class="mb-0">ABCD-1234-00</p>
-            <p class="mb-0 truncate">{{ "2138 Blankenbecker Drive Cincinnati, Ohio 45202" | truncate : 21 }}</p>
+            <p class="mb-0 truncate" #trigger="appHoverTrigger" appHoverTrigger [pophover]="pophover">{{ "2138 Blankenbecker Drive Cincinnati, Ohio 45202" | truncate : 21 }}</p>
+            <app-pop-hover #pophover (close)="trigger.close()">
+
+            </app-pop-hover>
           </div>
           <div class="col">
             <p class="mb-0">{{item.builderName}}</p>

@@ -2,7 +2,9 @@ import {
   Component,
   OnInit,
   ViewChild,
-  TemplateRef
+  TemplateRef,
+  EventEmitter,
+  Output
 } from '@angular/core';
 
 @Component({
@@ -12,9 +14,17 @@ import {
 })
 export class PopHoverComponent implements OnInit {
 
-  @ViewChild('autoComplete')
+  @ViewChild('pophover')
   template: TemplateRef<any>;
+  isOpen: boolean;
+
+@Output()
+  close = new EventEmitter();
   ngOnInit() { }
+
+  closePophover() {
+    this.close.emit();
+  }
 
 }
 
