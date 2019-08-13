@@ -100,19 +100,45 @@ section {
       content: '.';
       width: 15px;
       height: 75px;
-      background: red;
+      background: #3cacde;
       position: absolute;
       left: -25px;
-      color: red;
+      color: #3cacde;
     }
     .old:before {
       content: '.';
       width: 15px;
       height: 75px;
-      background: grey;
+      background: #b7b7b7;
       position: absolute;
       left: -25px;
-      color: grey;
+      color: #b7b7b7;
     }
   }
+  // .hover-info {
+  //   position: relative;
+  //   width: 250px;
+  //   background: #ffffff;
+  //   padding: 16px;
+  //   border-radius: 8px;
+  //   .hover-close {
+  //   font-size: 2rem;
+  //   line-height: 1;
+  //   color: #000;
+  //   opacity: .5;
+  //   position: absolute;
+  //   top: 0;
+  //   right: 8px;
+  //   }
+  //   .hover-header {
+
+  //   }
+  //   .hover-body {
+  //     font-size: 14px;
+  //     letter-spacing: 0px;
+  //     line-height: 20px;
+  //     color: #000000;
+  //     font-weight: 400;
+  //   }
+  // }
 }

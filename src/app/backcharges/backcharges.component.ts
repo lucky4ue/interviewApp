@@ -47,7 +47,7 @@ export class BackchargesComponent implements OnInit {
           "cityCode": 859,
           "landLineNo": "578-4200"
       },
-      "isNew": false
+      "isNew": true
     },
     {
       "fpo": 8675309,
@@ -87,7 +87,7 @@ export class BackchargesComponent implements OnInit {
           "cityCode": 859,
           "landLineNo": "578-4200"
       },
-      "isNew": false
+      "isNew": true
     },
     {
       "fpo": 8675309,
@@ -127,7 +127,7 @@ export class BackchargesComponent implements OnInit {
             "cityCode": 859,
             "landLineNo": "578-4200"
         },
-        "isNew": true
+        "isNew": false
     },
     {
       "fpo": 8675309,
@@ -147,7 +147,7 @@ export class BackchargesComponent implements OnInit {
           "cityCode": 859,
           "landLineNo": "578-4200"
       },
-      "isNew": false
+      "isNew": true
     },
     {
       "fpo": 8675309,
@@ -167,7 +167,7 @@ export class BackchargesComponent implements OnInit {
           "cityCode": 859,
           "landLineNo": "578-4200"
       },
-      "isNew": false
+      "isNew": true
     },
     {
       "fpo": 8675309,
