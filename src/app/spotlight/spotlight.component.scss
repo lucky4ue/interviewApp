@@ -1,27 +1,28 @@
+@import '~styles.scss';
 header {
-    background-color: #064631;
+    background-color: $green-2;
     background-image: url(../../assets/images/blue-print-design.png);
     background-position: center;
     background-origin: padding-box;
-    height: 106px;
+    height: ($u-50 * 2) + $u-6;
   .brand {
-    font-size: 36px;
-    color: #f8f8f8;
-    font-weight: 700;
+    font-size: $u-36;
+    color: $white-2;
+    font-weight: $font-weight-bold;
   }
   .valid-user {
-    width: 339px;
-    height: 39px;
-    border-radius: 4px;
-    background-color: #f89133;
+    width: ($u-44 * 10) - $u-1;
+    height: $u-39;
+    border-radius: $border-radius;
+    background-color: $orange;
     display: flex;
     justify-content: space-around;
     align-items: center;
     .user-name {
       letter-spacing: 0px;
-      line-height: 45px;
-      color: #ffffff;
-      font-weight: 500;
+      line-height: $u-45;
+      color: $white;
+      font-weight: $font-weight-medium;
     }
   }
   .mobile-menu {
@@ -29,18 +30,18 @@ header {
     display: none;
     flex-direction: column;
     justify-content: space-around;
-    height: 42px;
-    padding: 8px;
+    height: $u-42;
+    padding: $u-8;
     div {
-      width: 30px;
-      height: 2px;
-      background: white;
+      width: $u-30;
+      height: $u-2;
+      background: $white;
     }
     &:hover {
-      background: white;
-      border-radius: 3px;
+      background: $white;
+      border-radius: $border-radius-sm;
       div {
-        background: #f89133;
+        background: $orange;
       }
     }
   }

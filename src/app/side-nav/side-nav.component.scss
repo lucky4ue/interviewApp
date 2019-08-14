@@ -1,26 +1,26 @@
-
+@import '~styles.scss';
 .navable {
-  font-size: 14px;
-  line-height: 45px;
+  font-size: $u-14;
+  line-height: $u-45;
   color: #e1f0a7;
   font-weight: 300;
   .navable-item {
     cursor: pointer;
     display: flex;
     align-items: center;
-    padding-left: 16px;
+    padding-left: $u-16;
     span {
-      padding-left: 8px;
+      padding-left: $u-8;
     }
     &:hover {
       background-color: #002518;
     }
     &.sub {
-      color: #f2f2f2;
+      color: $white-1;
       img {
         &:last-child {
           position: absolute;
-          right: 28px;
+          right: $u-28;
         }
       }
     }
@@ -28,42 +28,36 @@
       color: rgba(225, 240, 167, 0.5)
     }
     &.active{
-      background: #002518;
+      background: $green-1;
       &:before {
         content: ".";
         color: #adbf2b;
-        width: 6px;
+        width: $u-6;
         background-color: #adbf2b;
-        margin-left: -16px;
+        margin-left: -($u-16);
       }
       span {
-        margin-left: 24px !important;
+        margin-left: $u-24 !important;
       }
     }
     .count {
-      font-size: 12px;
-      color: #043825;
+      font-size: $u-12;
+      color: $green;
       font-weight: 900;
-      border-radius: 8px;
+      border-radius: $border-radius-lg;
       background-color: #fac040;
-      width: 30px;
-      height: 15px;
+      width: $u-30;
+      height: $u-15;
       line-height: initial;
       text-align: center;
       position: absolute;
-      right: 28px;
-    }
-  }
-  .sub-navable-item {
-    padding-left: 24px;
-    div:hover {
-      background: red;
+      right: $u-28;
     }
   }
   .upcoming {
-    color: #f2f2f2;
-    font-weight: 700;
-    padding-left: 16px;
-    margin-top: 24px;
+    color: $white-1;
+    font-weight: $font-weight-bold;
+    padding-left: $u-16;
+    margin-top: $u-24;
   }
 }

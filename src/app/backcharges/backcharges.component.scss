@@ -1,32 +1,33 @@
+@import '~styles.scss';
 section {
-  padding-left: 10px;
+  padding-left: $u-10;
   .search{
-    padding: 30px 20px;
+    padding: $u-30 $u-20;
     .input-group {
       position: absolute;
-      top: 25px;
-      left: 100px;
+      top: $u-25;
+      left: $u-25 * 4;
       .input-group-prepend {
         .input-group-text {
-          background-color: #ffffff;
-          width: 129px;
-          height: 34px;
+          background-color: $white;
+          width: ($u-40 * 3) + $u-9;
+          height: $u-34;
         }
       }
       input {
-        max-width: 187px;
-        height: 34px;
-        border-top-right-radius: 4px;
-        border-bottom-right-radius: 4px;
+        max-width: ($u-30 * 6) + $u-7;
+        height: $u-34;
+        border-top-right-radius: $border-radius;
+        border-bottom-right-radius: $border-radius;
         &.form-control:focus {
-          background-color: #ffffff;
-          border-color: #cccccc;
+          background-color: $white;
+          border-color: $grey;
           box-shadow: none;
         }
       }
       .input-group-append {
         position: relative;
-        right: 24px;
+        right: $u-24;
       }
     }
   }
@@ -34,37 +35,35 @@ section {
     .new, .old {
       display: flex;
       align-items: center;
-      font-size: 11px;
-      color: #000000;
-      font-weight: 700;
+      font-size: $u-11;
+      color: $dark;
+      font-weight: $font-weight-bold;
     }
     & + .export {
-      font-size: 11px;
-      color: #000000;
-      font-weight: 700;
+      font-size: $u-11;
+      color: $dark;
+      font-weight: $font-weight-bold;
     }
   }
   .table-head {
-    // border-bottom: 1px solid #cccccc;
     .col {
       flex-grow: 1;
       &:nth-last-child(2), &:nth-last-child(3) {
         flex-grow: 2;
       }
       .title {
-        font-size: 12px;
+        font-size: $u-12;
         letter-spacing: 0px;
-        line-height: 14px;
-        color: #043825;
-        font-family: "Roboto";
-        font-weight: 700;
+        line-height: $u-14;
+        color: $green;
+        font-weight: $font-weight-bold;
       }
       .media {
         align-items: center;
         .media-body {
           line-height: .5;
           color: lightgray;
-          padding-left: 4px;
+          padding-left: $u-4;
         }
       }
     }
@@ -75,44 +74,44 @@ section {
     max-height: calc(100vh - 216px);
     // overflow-y: auto;
     .row {
-      background: #ffffff;
+      background: $white;
       // need to check
       // margin:0;
     }
     .col {
       flex-grow: 1;
-      padding-top: 4px;
-      height: 75px;
-      font-size: 14px;
+      padding-top: $u-4;
+      height: $u-25 * 3;
+      font-size: $u-14;
       letter-spacing: 0px;
-      line-height: 20px;
-      color: #000000;
+      line-height: $u-20;
+      color: $dark;
       font-weight: 400;
       &:nth-last-child(2), &:nth-last-child(3) {
         flex-grow: 2;
       }
     }
     .truncate {
-      color: #97a911;
+      color: $green-pale;
       cursor: pointer;
     }
     .new:before {
       content: '.';
-      width: 15px;
-      height: 75px;
-      background: #3cacde;
+      width: $u-15;
+      height: $u-50 + $u-25;
+      background: $sky-blue;
       position: absolute;
-      left: -25px;
-      color: #3cacde;
+      left: -($u-25);
+      color: $sky-blue;
     }
     .old:before {
       content: '.';
-      width: 15px;
-      height: 75px;
-      background: #b7b7b7;
+      width: $u-15;
+      height: $u-50 + $u-25;
+      background: $grey-1;
       position: absolute;
-      left: -25px;
-      color: #b7b7b7;
+      left: -($u-25);
+      color: $grey-1;
     }
   }
 }
